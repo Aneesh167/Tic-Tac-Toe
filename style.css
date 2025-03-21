@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: rgb(17, 17, 18);
+    text-align: center;
+}
+h1{
+    color: rgb(19, 174, 185);
+    text-decoration:underline dotted;
+    text-decoration-color: rgb(18, 189, 219);
+    margin-bottom: 150px;
+    margin-top: 20px;
+font-size: 50px;
+}
+.container{
+    margin-top: 20px;
+    height: 60vh;
+    background-color: rgb(59, 62, 62);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height:60vmin;
+    width: 60vmin;
+    
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box{
+    margin:5px;
+    height:15vmin;
+    width: 15vmin;
+    border-radius: 1rem;
+    border:none;
+    box-shadow: 0 0 1 rem rgba(0,0,0,0.3);
+    font-size: 8vmin;
+
+}
+.reset{
+    height:10vh;
+    background-color: rgb(84, 87, 87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newG{
+    height:8vmin;
+    background-color: rgb(14, 14, 14,1.0);
+    color: rgb(183, 243, 243);
+    border-radius: 1rem;
+    width:20vmin;
+    border:none;
+    outline: none;
+    box-shadow: 0 5px 10px rgb(14, 14, 14,1.0);
+    transition: all 0.4s ease;
+
+}
+button:active{
+    transform: scale(0.9);
+    box-shadow: 0 5px 10px rgb(14, 14, 14,0.5);
+   
+    border:none;
+}
+
+.newgame{
+    margin-top: 10px;
+    height:8vmin;
+    background-color: rgb(63, 61, 61);
+    color: rgb(183, 243, 243);
+    border-radius: 1rem;
+    width:15vmin;
+    border:none;
+    outline: none;
+    box-shadow: 0 5px 10px rgb(14, 14, 14,1.0);
+    transition: all 0.4s ease;
+    
+}
+#msg{
+    color: rgb(170, 246, 249);
+    font-size: 40px;
+}
+.newgame1{
+    margin-top: 10px;
+    height:8vmin;
+    background-color: rgb(63, 61, 61);
+    color: rgb(183, 243, 243);
+    border-radius: 1rem;
+    width:15vmin;
+    border:none;
+    outline: none;
+    box-shadow: 0 5px 10px rgb(14, 14, 14,1.0);
+    transition: all 0.4s ease;
+    
+}
+#msg1{
+    color: rgb(170, 246, 249);
+    font-size: 40px;
+}
+.hide{
+    display: none;
+}
+.main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
