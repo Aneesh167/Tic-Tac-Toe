@@ -3,4 +3,4 @@ Tic Tac Toe is a simple two-player game played on a 3x3 grid.<br> Players take t
 <br>
 We have used HTML for structure , CSS for styling and JavaScript for logic building
 <br>
-Author - Aneesh 
+<u><b>Author - Aneesh </b></u>
